@@ -1,0 +1,124 @@
+.main {
+    background: transparent linear-gradient(180deg, rgb(233, 244, 255) 0%, rgb(231, 236, 255) 51%, rgba(224, 228, 255, 1) 100%) 0% 0% no-repeat padding-box;;
+    height: 100vh;
+  }
+
+  .nav-background {
+    background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+    position: relative;
+  }
+  
+  .btn {
+    text-decoration:none;
+    padding:7px 20px;
+    border: none;
+    border-radius:8px;
+    font: normal normal 300 16px/19px Poppins;
+    color: #FFFFFF;
+  }
+  
+  .btn-primary {
+    background-color: #7587FF;
+  }
+  
+  button:focus {
+    box-shadow: none;
+  }
+  
+  .search-input {
+    background: rgba(226, 220, 237, 0.2);
+    border-radius: 10px;
+    width: 350px;
+    padding: 7px;
+    margin-right: 10px;
+    border: none;
+    text-align: center;
+  }
+  
+  .search-input::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .search-input:focus {
+    outline: none;
+  }
+
+  .btn-primary:hover {
+    background:darken(rgba(107, 127, 255, 1),8%);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:active {
+    background:darken(rgba(107, 127, 255, 1),25%);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #55575a !important;
+    border-color: #535456;
+    opacity: 0.2;
+}
+
+
+table {
+    margin: auto;
+    text-align: center;
+}
+
+.products-table {
+    height: 400px;
+    overflow: auto;
+}
+
+.loader {
+    height: 530px;
+    padding-top: 200px;
+}
+
+.table-background {
+    height: 500px;
+    background-color: #fff;
+    padding: 40px;
+    margin: 50px 140px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 15px;
+    text-align: center;
+}
+  
+  p {
+    opacity: 0.6;
+    font: normal normal 400 10px/10px Poppins;
+  }
+  
+  h6 {
+    font: normal normal 400 12px/15px Poppins;
+  }
+  
+  .cursor-pointer{
+    cursor: pointer;
+  }
+
+  @media (min-width: 1900px) {
+    .nav-background {
+      padding: 6px 0;
+    }
+  
+    h5 {
+      font: normal normal 400 19px/30px Poppins;;
+    }
+  }
+  @media (min-width: 1023px) and (max-width: 1335px) {
+    h5 {
+      font: normal normal 400 14px/15px Poppins;;
+    }
+  
+    .search-input {
+      width: 200px;
+    }
+  }
+  @media (min-width: 1336px) {
+    .search-input {
+      width: 350px;
+    }
+  }
+  

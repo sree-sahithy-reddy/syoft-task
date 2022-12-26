@@ -1,0 +1,71 @@
+.main {
+    background: transparent linear-gradient(180deg, rgb(233, 244, 255) 0%, rgb(231, 236, 255) 51%, rgba(224, 228, 255, 1) 100%) 0% 0% no-repeat padding-box;;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-element {
+    background:rgba(255, 255, 255, 1) ;
+    width: 900px;
+    height: 450px;
+    box-shadow: 0 1px 97px rgba(0, 0, 0, 0.18);
+    border-radius: 20px;
+  }
+  
+  h1 {
+    /* text-align: left; */
+    font: normal normal 600 35px/51px Poppins;
+    letter-spacing: 0.35px;
+  }
+  
+  h1 span {
+      color: rgba(107, 127, 255, 1);
+    }
+  
+  .btn {
+    color:white;
+    text-decoration:none;
+    padding:7px 82px;
+    border: none;
+    border-radius:8px;
+    font: normal normal 400 21px/30px Poppins;
+  }
+  
+  
+  .btn-primary {
+      background:(rgba(107, 127, 255, 1));
+  }
+  
+  .btn-primary:hover {
+      background:darken(rgba(107, 127, 255, 1),8%);
+      transition: all 0.3s ease;
+    }
+  
+    .btn-primary:active {
+      background:darken(rgba(107, 127, 255, 1),25%);
+    }
+  
+  svg {
+    width: 100%;
+  }
+  
+  input {
+      text-align: center;
+      width: 80%;
+      margin: auto;
+  }
+  
+  form {
+      text-align: center;
+  }
+
+  .register-path {
+    cursor: pointer;
+  }
+
+  .warning {
+    color: red;
+  }
+  
